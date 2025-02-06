@@ -92,7 +92,30 @@ header {
 
         .profile_description {
             width: 100%;
-            background-color: #4f5a5d;
+            h2 {
+                color: var(--white);
+                font-size: 18px;
+                font-weight: bold;
+                margin-bottom: 13px; 
+            }
+
+            p {
+                color: var(--gray);
+                font-size: 15px;
+                font-family: "Montserrat", sans-serif;
+                margin-bottom: 8px;
+
+                span {
+                    color: var(--white);
+                }
+            }
+
+            a {
+                color: var(--white);
+                margin-top: 10px;
+                font-size: 15px;
+                text-decoration: underline;
+            }
         }
 
         .profile_image {
@@ -156,13 +179,12 @@ header {
     #profile {
 
         .profile_container {
-            width: 70%;
+            width: 60%;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            align-items: start;
+            align-items: center;
             gap: 0;
-            background-color: goldenrod;
 
             .profile_description {
                 width: 45%;
@@ -170,6 +192,31 @@ header {
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
+
+                h2 {
+                    color: var(--white);
+                    font-size: 30px;
+                    font-weight: bold;
+                    margin-bottom: 26px; 
+                }
+
+                p {
+                    color: var(--gray);
+                    font-size: 20px;
+                    font-family: "Montserrat", sans-serif;
+                    margin-bottom: 15px;
+
+                    span {
+                        color: var(--white);
+                    }
+                }
+
+                a {
+                    color: var(--white);
+                    margin-top: 20px;
+                    font-size: 24px;
+                    text-decoration: underline;
+                }
             }
 
             .profile_image {
