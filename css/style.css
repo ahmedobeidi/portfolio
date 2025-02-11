@@ -132,6 +132,42 @@ header {
     }
 }
 
+#skills {
+    .skills_container {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        /* background-color: #ab4e4f; */
+
+        .skills_title {
+            color: var(--white);
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .images_container {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            /* background-color: green; */
+
+            .image_div {
+                width: 33%;
+                display: flex;
+                justify-content: center;
+                /* background: gray; */
+
+                img {
+                    width: 45%;
+                }
+            }
+        }
+    } 
+}
+
 
 @media only screen and (min-width: 600px) {
 
@@ -139,6 +175,20 @@ header {
 
         .profile_container {
             width: 50%;
+
+            .profile_description {
+                h2 {
+                    font-size: 19px;
+                }
+    
+                p {
+                    font-size: 17px;
+                }
+
+                a {
+                    font-size: 17px;
+                }
+            }
         }
     }
 }
