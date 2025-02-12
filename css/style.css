@@ -158,14 +158,30 @@ header {
                 width: 33%;
                 display: flex;
                 justify-content: center;
+                margin-bottom: 30px;
                 /* background: gray; */
 
                 img {
-                    width: 45%;
+                    width: 50%;
                 }
             }
         }
     } 
+}
+
+#projects {
+    .projects_container {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        background-color: #ab4e4f;
+
+        .projects_title {
+            color: var(--white);
+            font-size: 18px;
+            font-weight: bold;
+        }
+    }
 }
 
 
