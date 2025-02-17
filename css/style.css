@@ -89,6 +89,7 @@ header {
         justify-content: center;
         align-items: center;
         gap: 30px;
+        /* background-color: red; */
 
         .profile_description {
             width: 100%;
@@ -120,6 +121,7 @@ header {
 
         .profile_image {
             width: 100%;
+            height: 50vh !important;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -127,6 +129,8 @@ header {
 
             img {
                 width: 100%;
+                height: 90%;
+                border-radius: 50px !important; 
             }
         }
     }
@@ -252,6 +256,7 @@ header {
 
         .profile_container {
             width: 50%;
+            /* background-color: #ab4e4f; */
 
             .profile_description {
                 h2 {
@@ -264,6 +269,20 @@ header {
 
                 a {
                     font-size: 17px;
+                }
+            }
+            .profile_image {
+                width: 100%;
+                height: 40vh !important;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+    
+                img {
+                    width: 100%;
+                    height: 40vh !important;
+                    border-radius: 50px !important; 
                 }
             }
         }
@@ -468,11 +487,14 @@ header {
 
             .profile_image {
                 width: 45%;
-                height: 100%;
+                /* height: 40% !important; */
+                height: 100vh !important;
+                /* background-color: #ab4e4f; */
 
                 img {
                     width: 100%;
-                    height: 100%;
+                    height: 65% !important;
+                    border-radius: 100px;
                 }
             }
         }
