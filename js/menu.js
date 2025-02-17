@@ -8,9 +8,9 @@ document.addEventListener("DOMContentLoaded", () => {
     mobileNav.innerHTML = `
         <ul>
             <li><a href="#profile">Profile</a></li>
-            <li><a href="#skills">Showcases</a></li>
+            <li><a href="#skills">Compétences</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact">Contacts</a></li>
         </ul>
     `;
 
