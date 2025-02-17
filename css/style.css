@@ -581,11 +581,12 @@ header {
             .contact_icons {
                 display: flex;
                 text-align: center;
+                justify-content: center;
                 width: 100%;
                 gap: 3%;
     
                 a {
-                    width: 32%;
+                    width: 20%;
     
                     img {
                         width: 15%;
