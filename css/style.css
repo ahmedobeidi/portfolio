@@ -483,6 +483,11 @@ header {
                     text-decoration: none;
                     width: fit-content;
                     border-bottom: 1px solid var(--brown);
+
+                    &:hover {
+                        color: var(--brown);
+                        /* border-bottom: 1px solid var(--white); */
+                    }
                 }
             }
 
