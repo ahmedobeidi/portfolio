@@ -116,16 +116,16 @@ header {
             }
 
             a {
-                color: var(--brown);
+                color: var(--white);
                 margin-top: 10px;
                 font-size: 15px;
                 text-decoration: none;
                 width: fit-content;
-                border-bottom: 1px solid var(--white);
+                border-bottom: 1px solid var(--brown);
 
                 &:hover {
-                color: var(--white);
-                border-bottom: 1px solid var(--brown);
+                color: var(--brown);
+                border-bottom: 1px solid var(--white);
 
                 }
             }
@@ -146,6 +146,16 @@ header {
             }
         }
     }
+}
+
+.profile_image img {
+    filter: grayscale(100%);
+    transition: .3s linear;
+}
+
+.profile_image img:hover {
+    filter: grayscale(0%);
+
 }
 
 #skills {
@@ -178,10 +188,35 @@ header {
 
                 img {
                     width: 50%;
+                    
                 }
             }
         }
     } 
+}
+
+.image_div img {
+    --_g: 10% /45% 45% no-repeat linear-gradient(#000 0 0);
+    --m:
+        left   var(--_i,0%) top    var(--_g),
+        bottom var(--_i,0%) left   var(--_g),
+        top    var(--_i,0%) right  var(--_g),
+        right  var(--_i,0%) bottom var(--_g);
+    -webkit-mask: var(--m);
+            mask: var(--m);
+    filter: grayscale(0%);
+    transition: filter 0.5s ease-in-out, mask 0.5s ease-in-out;
+}
+
+
+.image_div img:hover {
+    --_i: 100%; /* Expands the mask gradually */
+    --_g: 100%; /* Ensures mask fades out */
+
+    -webkit-mask: none; /* Remove masking effect */
+    mask: 0.5s ease-in-out; /* Ensure full image is visible */
+    
+    filter: grayscale(0%);
 }
 
 #projects {
@@ -305,7 +340,7 @@ header {
         .skills_container {
             
             .skills_title {
-
+                display: none;
             }
 
             .images_container {
@@ -524,7 +559,8 @@ header {
         .skills_container {
             
             .skills_title {
-                display: none;
+                font-size: 22px;
+                /* display: none; */
             }
 
             .images_container {
@@ -541,9 +577,9 @@ header {
                     justify-content: center;
                     margin-bottom: 30px;
                     /* background: gray; */
-                    transition: transform 0.3s, box-shadow 0.3s;
+                    /* transition: transform 0.3s, box-shadow 0.3s; */
                     &:hover {
-                        transform: scale(1.1);
+                        /* transform: scale(1.1); */
                     }
     
                     img {
