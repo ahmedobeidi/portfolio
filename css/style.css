@@ -316,7 +316,7 @@ header {
         .skills_container {
             
             .skills_title {
-                display: none;
+                /* display: none; */
             }
 
             .images_container {
