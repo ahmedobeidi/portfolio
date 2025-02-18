@@ -116,16 +116,16 @@ header {
             }
 
             a {
-                color: var(--white);
+                color: var(--brown);
                 margin-top: 10px;
                 font-size: 15px;
                 text-decoration: none;
                 width: fit-content;
-                border-bottom: 1px solid var(--brown);
+                border-bottom: 1px solid var(--white);
 
                 &:hover {
-                color: var(--brown);
-                border-bottom: 1px solid var(--white);
+                color: var(--white);
+                border-bottom: 1px solid var(--brown);
 
                 }
             }
@@ -260,6 +260,8 @@ header {
         }
     }
 }
+
+
 
 @media only screen and (min-width: 600px) {
 
@@ -552,6 +554,10 @@ header {
 
                 .tailwind {
                     width: 17%;
+                }
+
+                .react {
+                    width: 13%;
                 }
             }
         }
