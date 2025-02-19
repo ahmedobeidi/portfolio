@@ -18,7 +18,7 @@
 }
 
 body {
-    background-color: var(--black);
+    background-color:  #181A1B;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -153,12 +153,16 @@ header {
 .profile_image img {
     filter: grayscale(100%);
     transition: .2s linear;
-    background-color: #181a1c;
+    /* #1A1A1A */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 2px 2px;
 }
 
 .profile_image img:hover {
-    filter: grayscale(0%);
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    filter: grayscale(30%);
+    /* background-color: #181a1c; */
+    background-color: #171818;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 0px 8px 0px;
+
 }
 
 #skills {
