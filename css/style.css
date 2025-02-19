@@ -116,16 +116,16 @@ header {
             }
 
             a {
-                color: var(--white);
+                color: var(--brown);
                 margin-top: 10px;
                 font-size: 15px;
                 text-decoration: none;
                 width: fit-content;
-                border-bottom: 1px solid var(--brown);
+                border-bottom: 1px solid var(--gray);
 
                 &:hover {
-                color: var(--brown);
-                border-bottom: 1px solid var(--white);
+                color: var(--white);
+                border-bottom: 1px solid var(--brown);
 
                 }
             }
@@ -148,14 +148,17 @@ header {
     }
 }
 
+
+
 .profile_image img {
     filter: grayscale(100%);
-    transition: .3s linear;
+    transition: .2s linear;
+    background-color: #181a1c;
 }
 
 .profile_image img:hover {
     filter: grayscale(0%);
-
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 #skills {
