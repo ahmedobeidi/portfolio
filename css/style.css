@@ -86,6 +86,8 @@ header {
 
 #profile {
 
+    background: linear-gradient(0deg, rgba(42,56,78,1) 0%, rgba(24,22,20,1) 86%);
+
     .profile_container {
         width: 90%;
         display: flex;
@@ -116,16 +118,16 @@ header {
             }
 
             a {
-                color: var(--brown);
+                color: var(--white);
                 margin-top: 10px;
                 font-size: 15px;
                 text-decoration: none;
                 width: fit-content;
-                border-bottom: 1px solid var(--gray);
+                border-bottom: 1px solid var(--brown);
 
                 &:hover {
-                color: var(--white);
-                border-bottom: 1px solid var(--brown);
+                color: var(--brown);
+                /* border-bottom: 1px solid var(--white); */
 
                 }
             }
@@ -160,7 +162,8 @@ header {
 .profile_image img:hover {
     filter: grayscale(30%);
     /* background-color: #181a1c; */
-    background-color: #171818;
+    /* background-color: #171818; */
+    background-color: rgba(24,22,20,1);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 0px 8px 0px;
 
 }
@@ -205,6 +208,9 @@ header {
 
 
 #projects {
+
+    background: linear-gradient(0deg, rgba(42,56,78,1) 0%, rgba(24,22,20,1) 86%);
+
     .projects_container {
         width: 90%;
         display: flex;
