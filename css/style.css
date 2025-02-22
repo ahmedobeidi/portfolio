@@ -134,7 +134,7 @@ header {
         }
 
         .profile_image {
-            width: 100%;
+            width: 90%;
             height: 40vh !important;
             display: flex;
             justify-content: center;
@@ -142,8 +142,8 @@ header {
             overflow: hidden;
 
             img {
-                width: 100%;
-                height: 80%;
+                width: 80%;
+                height: 100%;
                 border-radius: 50%;
             }
         }
@@ -280,7 +280,7 @@ header {
                 width: 32%;
 
                 img {
-                    width: 50%;
+                    width: 35%;
                 }
             }
         }
@@ -309,7 +309,7 @@ header {
                 }
             }
             .profile_image {
-                width: 100%;
+                width: 90%;
                 height: 40vh !important;
                 display: flex;
                 justify-content: center;
@@ -317,7 +317,7 @@ header {
                 overflow: hidden;
     
                 img {
-                    width: 100%;
+                    width: 85%;
                     height: 40vh !important;
                     border-radius: 50%;
                 }
@@ -415,7 +415,7 @@ header {
 
     #contact {
         .contact_container {
-            width: 90%;
+            width: 100%;
             display: flex;
             flex-direction: column;
             gap: 50px;
@@ -431,14 +431,15 @@ header {
             .contact_icons {
                 display: flex;
                 text-align: center;
+                justify-content: center;
                 width: 100%;
                 gap: 3%;
     
                 a {
-                    width: 32%;
+                    width: 17%;
     
                     img {
-                        width: 30%;
+                        /* width: 30%; */
                     }
                 }
             }
@@ -532,12 +533,12 @@ header {
             .profile_image {
                 width: 45%;
                 /* height: 40% !important; */
-                height: 100vh !important;
+                height: 80vh !important;
                 /* background-color: #ab4e4f; */
 
                 img {
-                    width: 90%;
-                    height: 50% !important;
+                    width: 80%;
+                    height: 55% !important;
                     border-radius: 100%;
                 }
             }
@@ -721,8 +722,6 @@ header {
         }
     }
 }
-
-    
 
 .navbar_mobile {
     position: fixed;
