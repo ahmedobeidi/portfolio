@@ -163,7 +163,9 @@ header {
     filter: grayscale(30%);
     /* background-color: #181a1c; */
     /* background-color: #171818; */
-    background-color: rgba(24,22,20,1);
+    /* background-color: rgba(24,22,20,1); */
+    background-color: rgba(0, 0, 0, 0.05);
+    /* background: linear-gradient(0deg, rgba(42,56,78,1) 0%, rgba(24,22,20,1) 86%); */
     box-shadow: rgba(99, 99, 99, 0.2) 0px 0px 8px 0px;
 
 }
@@ -537,7 +539,7 @@ header {
                 /* background-color: #ab4e4f; */
 
                 img {
-                    width: 80%;
+                    width: 75%;
                     height: 55% !important;
                     border-radius: 100%;
                 }
