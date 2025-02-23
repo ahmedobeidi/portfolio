@@ -126,8 +126,8 @@ header {
                 border-bottom: 1px solid var(--brown);
 
                 &:hover {
-                color: var(--brown);
-                /* border-bottom: 1px solid var(--white); */
+                /* color: var(--brown); */
+                border-bottom: 3px solid var(--brown);
 
                 }
             }
@@ -679,7 +679,7 @@ header {
                     .project_description {
                         display: none; /* Hide description by default */
                         font-size: 17px;
-                        color: var(--brown);
+                        color: var(--white);
                     }
                 }
             }
