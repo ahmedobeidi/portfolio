@@ -134,15 +134,15 @@ header {
         }
 
         .profile_image {
-            width: 90%;
-            height: 40vh !important;
+            width: 60%;
+            /* height: 40vh !important; */
             display: flex;
             justify-content: center;
             align-items: center;
             overflow: hidden;
 
             img {
-                width: 80%;
+                width: 100%;
                 height: 100%;
                 border-radius: 50%;
             }
@@ -311,16 +311,16 @@ header {
                 }
             }
             .profile_image {
-                width: 90%;
-                height: 40vh !important;
+                width: 70%;
+                /* height: 40vh !important; */
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 overflow: hidden;
     
                 img {
-                    width: 85%;
-                    height: 40vh !important;
+                    width: 100%;
+                    height: 100%;
                     border-radius: 50%;
                 }
             }
@@ -533,14 +533,14 @@ header {
             }
 
             .profile_image {
-                width: 45%;
+                width: 33%;
                 /* height: 40% !important; */
-                height: 80vh !important;
+                /* height: 80vh !important; */
                 /* background-color: #ab4e4f; */
 
                 img {
-                    width: 75%;
-                    height: 55% !important;
+                    width: 100%;
+                    height: 100%;
                     border-radius: 100%;
                 }
             }
